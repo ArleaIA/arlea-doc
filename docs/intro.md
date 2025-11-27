@@ -9,7 +9,7 @@ Bienvenido a la documentación técnica oficial del proyecto **Arlea**.
 ## Contenido principal
 
 ### 1. Arquitectura
-- [Arquitectura General](arquitectura/arquitectura-general.md)
+- [Arquitectura General](arquitectura/arquitectura-general.mdx)
 
 ### 2. Casos de Uso
 - [Auth](casos-de-uso/auth.md)

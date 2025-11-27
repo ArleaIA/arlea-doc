@@ -12,13 +12,13 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://LopsidedBus132.github.io',
+  url: 'https://martinialabs.github.io',
 
-  baseUrl: '/arlea-docs-api/',
+  baseUrl: '/arlea-doc/',
 
   
-  organizationName: 'LopsidedBus132',   
-  projectName: 'arlea-docs-api',  
+  organizationName: 'ArleaIA',   
+  projectName: 'arlea-doc',  
   
   onBrokenLinks: 'throw',
 
