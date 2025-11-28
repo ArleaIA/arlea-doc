@@ -22,7 +22,7 @@ Bienvenido a la documentación técnica oficial del proyecto **Arlea**.
 - [Usuario](api/usuario.mdx)
 - [Colorimetría](api/colorimetria.mdx)
 - [Productos](api/productos.md)
-- HOLA MUNDO    
+- HOLA MUNDO    s
 {/*
 ### 4. Procesos y Workers
 - [Worker ETL](workers/worker-etl.md)
