@@ -23,13 +23,13 @@ Bienvenido a la documentación técnica oficial del proyecto **Arlea**.
 - [Colorimetría](api/colorimetria.mdx)
 - [Productos](api/productos.md)
 
-
 ### 4. Procesos y Workers
 - [Worker ETL](workers/worker-etl.md)
 - [Normalización de Productos](workers/normalizacion.md)
 - [Manejo de Errores](workers/manejo-errores.md)
 
 ### 5. Despliegue
+- HOLAAAAA
 - [Docker](despliegue/docker.md)
 - [Variables de Entorno](despliegue/variables-entorno.md)
 - [Supabase](despliegue/supabase.md)
