@@ -21,9 +21,8 @@ Bienvenido a la documentación técnica oficial del proyecto **Arlea**.
 - [Auth](api/auth.mdx)
 - [Usuario](api/usuario.mdx)
 - [Colorimetría](api/colorimetria.mdx)
-- [Productos](api/productos.md)
-- HOLA MUNDO    s
-{/*
+- [Productos](api/productos.mdx)
+
 ### 4. Procesos y Workers
 - [Worker ETL](workers/worker-etl.md)
 - [Normalización de Productos](workers/normalizacion.md)
@@ -33,4 +32,4 @@ Bienvenido a la documentación técnica oficial del proyecto **Arlea**.
 - [Docker](despliegue/docker.md)
 - [Variables de Entorno](despliegue/variables-entorno.md)
 - [Supabase](despliegue/supabase.md)
-*/}
+
