@@ -1,0 +1,95 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Endpoints — Productos
+
+## GET /productos
+
+### Response
+**Query Params**  
+- page (number) → página actual (default: 1)
+- limit (number) → cantidad de productos por página (default: 20)
+### Request
+#### Ejemplo
+```json
+GET /producto?page=1&limit=20
+```
+### Response
+<Tabs> <TabItem value="200" label="200">
+```json
+{
+  "page": 1,
+  "limit": 20,
+  "total": 20,
+  "data": [
+    {
+      "id_producto": "uuid",
+      "nombre": "Serum Vitamina C",
+      "imagen_producto": "https://...",
+      "tipo": "skincare",
+      "colores": ["#E2C9AA", "#F4D8BE"]
+    }
+  ]
+}
+```
+</TabItem> <TabItem value="401" label="404/500">
+```json
+{
+  "statusCode": 500,
+  "message": "Error obteniendo productos"
+}
+```
+</TabItem> </Tabs> 
+## GET /productos/search/:name
+**Params**
+- name (string) → término a buscar
+
+**Query Params**
+- page (number) → default 1
+- limit (number) → default 20
+### Request
+#### Ejemplo
+```json
+GET /producto/search/serum?page=1&limit=10
+```
+### Response
+<Tabs> <TabItem value="200" label="200">
+```json
+{
+  "page": 1,
+  "limit": 10,
+  "total": 3,
+  "data": [
+    {
+      "id_producto": "uuid1",
+      "nombre": "Serum Ácido Hialurónico",
+      "imagen_producto": "https://...",
+      "tipo": "skincare",
+      "colores": null
+    },
+    {
+      "id_producto": "uuid2",
+      "nombre": "Serum Vitamina C",
+      "imagen_producto": "https://...",
+      "tipo": "skincare",
+      "colores": null
+    },
+    {
+      "id_producto": "uuid3",
+      "nombre": "Serum Antiedad Retinol",
+      "imagen_producto": "https://...",
+      "tipo": "skincare",
+      "colores": null
+    }
+  ]
+}
+
+```
+</TabItem> <TabItem value="401" label="404/500">
+```json
+{
+  "statusCode": 500,
+  "message": "Error obteniendo productos"
+}
+```
+</TabItem> </Tabs> 
